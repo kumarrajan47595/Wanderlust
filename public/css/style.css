@@ -1,0 +1,76 @@
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-link{
+    color: black !important;
+}
+.fa-compass{
+    color: red;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    margin-top: auto;
+    border-top: 0.1px solid rgb(207, 198, 198);
+    text-align: center;
+    background-color:rgb(160, 156, 156);
+    position: sticky;
+}
+.fot-info a {
+    padding: 8px;
+    text-decoration: none;
+    color: #222222;
+}
+.fot-info a:hover {
+    text-decoration: underline;
+    color: #222222;
+}
+/* card  */
+.card-link{
+    text-decoration: none !important;
+    display: flex !important;
+}
+.row{
+    display: inline-block;
+
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0px !important;
+}
+.card-text p {
+    font-weight: 400 !important;
+}
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+/* review card */
+.review{
+    border: 0.5px solid black !important;
+}
+
+/* map style */
+#map {
+    height: 400px;
+    width: 80vh;
+}
